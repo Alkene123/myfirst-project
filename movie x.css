@@ -1,0 +1,112 @@
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: black;
+                margin: 0px;
+                padding: 0px;
+                color: #ffffff;
+            }
+            /* Style the search input field */
+            
+            input[type="search"] {
+                padding: 7px;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                width: 80%;
+                /* Adjust as needed */
+                margin-left: 5px;
+                background-color: transparent;
+                color: white;
+                background-color: #a6a6a6f0;
+            }
+            
+            .div>scroll-box a {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 1px;
+                text-decoration: none;
+                justify-content: space-between;
+                margin: 5%;
+            }
+            
+            .nav-bar {
+                position: fixed;
+                top: 0px;
+                /* sticks the side nav to the top */
+                left: 0px;
+                /* sticks the side nav to the left side */
+                width: 100%;
+            }
+            
+            .nav-bar a {
+                text-decoration: none;
+                color: black;
+                display: block;
+                height: 20px;
+                /* sets fixed height */
+                line-height: 50px;
+                /* vertically centers the text */
+            }
+            
+            .nav-bar>ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .nav-bar>ul>li>a {
+                background: lightgrey;
+            }
+            
+            .nav-bar>ul>li>a:hover {
+                background: #173459;
+                color: #f8f9f9;
+            }
+            
+            .nav-bar .active {
+                background: #173459;
+                color: #f8f9f9;
+            }
+            
+            .nav-bar li {
+                float: left;
+                width: 25%;
+                /* 100% / 4 (number of li elements) = 25% */
+                text-align: center;
+                border-right: 1px solid #333;
+                /* for the borders */
+            }
+            
+            .nav-bar li:last-child {
+                border: none;
+            }
+            
+            div .scroll-box a:hover {
+                background-color: #333;
+            }
+            
+            .main {
+                width: 2%;
+                color: white;
+            }
+            
+            .footer {
+                width: 100%;
+                color: #0201;
+                padding: 10px;
+                position: fixed;
+                bottom: 0px;
+                left: 0px;
+                display: block;
+                justify-content: space-evenly;
+                margin-top: 500%;
+            }
+            
+            .footer-img {
+                margin-right: 4px;
+                padding
+            }
